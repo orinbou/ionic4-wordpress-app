@@ -7,7 +7,8 @@ export class WordpressService {
     items: any[];
     categories: any[];
     public wp_org: boolean = false;
-    mainUrl: String = "https://public-api.wordpress.com/rest/v1.1/sites/unegatuaj.com/";
+//  mainUrl: String = "https://public-api.wordpress.com/rest/v1.1/sites/unegatuaj.com/";
+    mainUrl: String = "https://public-api.wordpress.com/rest/v1.1/sites/ionicjp.wordpress.com/";
 
     constructor(private http: HttpClient) {
         if (this.wp_org == true) {
